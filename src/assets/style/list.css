@@ -1,0 +1,13 @@
+.ul-disc {
+  list-style-type: disc;
+  padding-left: 20px;
+  text-align: left;
+}
+
+.ul-decimal {
+  list-style: decimal inside;
+}
+
+.ul-decimal li {
+  padding-left: 5px;
+}

@@ -1,0 +1,143 @@
+/* заголовки */
+.title-1 {
+  color: #56565a;
+  font: normal 700 36px/38px "Roboto";
+}
+
+.title-2 {
+  color: #56565a;
+  font: normal 700 28px/30px "Roboto";
+}
+
+.title-3 {
+  color: #56565a;
+  font: normal 600 18px/22px "Roboto";
+}
+
+.title-4 {
+  color: #56565a;
+  font: normal 600 18px/22px "SourceSansPro";
+}
+
+.title-5 {
+  color: #56565a;
+  font: normal 600 16px/22px "SourceSansPro";
+}
+
+.title-6 {
+  color: #56565a;
+  font: normal 600 14px/19px "SourceSansPro";
+}
+
+@media all and (max-width: 767px) {
+  .title-1 {
+    font: normal 700 24px/28px "Roboto";
+  }
+  .title-2 {
+    font: normal 700 20px/24px "Roboto";
+  }
+  .title-4 {
+    font: normal 600 17px/22px "SourceSansPro";
+  }
+  .title-5 {
+    font: normal 600 15px/20px "SourceSansPro";
+  }
+}
+/* текст */
+.text-1 {
+  color: #56565a;
+  font: normal 400 16px/22px "SourceSansPro";
+}
+
+.text-2 {
+  color: #858585;
+  font: normal 400 14px/19px "SourceSansPro";
+}
+
+.text-3 {
+  color: #858585;
+  font: normal 400 12px/16px "SourceSansPro";
+}
+
+@media all and (max-width: 767px) {
+  .text-1 {
+    font: normal 400 15px/20px "SourceSansPro";
+  }
+  .text-2 {
+    color: #858585;
+    font: normal 400 13px/18px "SourceSansPro";
+  }
+}
+
+/* жирность */
+._bold {
+  font-weight: 700;
+}
+
+._regular {
+  font-weight: normal;
+}
+
+._semi-bold {
+  font-weight: 600;
+}
+/* цвета */
+._primary {
+  color: #56565a;
+}
+
+._blue {
+  color: #0a467e;
+}
+
+._light-blue {
+  color: #008fc5;
+}
+
+._black {
+  color: #000;
+}
+
+._gray {
+  color: #858585;
+}
+
+._white {
+  color: #fff;
+}
+
+._red {
+  color: #d21242;
+}
+._green {
+  color: #20883e;
+}
+._orange {
+  color: #ff973b;
+}
+._yellow {
+  color: #ffbf3b;
+}
+._burgundy {
+  color: #731472;
+}
+._dark-blue {
+  color: #002f58;
+}
+/* выравнивание */
+._justify {
+  text-align: justify;
+}
+
+/* ссылки */
+.text-link {
+  text-decoration: underline;
+  transition: 0.3s ease;
+}
+.text-link:hover {
+  text-decoration: none;
+  color: #0a467e;
+}
+.text-link:active {
+  text-decoration: underline;
+}

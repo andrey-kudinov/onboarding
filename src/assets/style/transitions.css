@@ -1,0 +1,64 @@
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.3s;
+}
+.fade-enter,
+.fade-leave-to {
+  opacity: 0;
+}
+
+.pic-enter-active,
+.pic-leave-active {
+  transition: all .7s;
+}
+.pic-enter,
+.pic-leave-to {
+  opacity: 0;
+}
+
+.slider-item {
+  display: inline-block;
+}
+.slider-enter-active,
+.slider-leave-active {
+  transition: opacity 0.3s;
+}
+
+.slider-enter-active {
+  transition-delay: 0.5s;
+}
+
+.slider-enter,
+.slider-leave-to {
+  opacity: 0;
+}
+
+.image-item {
+  display: inline-block;
+}
+.image-enter-active,
+.image-leave-active {
+  transition: opacity 0.3s;
+}
+
+.image-enter-active {
+  transition-delay: 0.5s;
+}
+
+.image-enter,
+.image-leave-to {
+  opacity: 0;
+}
+
+.flip-enter-active {
+  transition: all .2s cubic-bezier(0.55, 0.085, 0.68, 0.53); 
+}
+
+.flip-leave-active {
+  transition: all .25s cubic-bezier(0.25, 0.46, 0.45, 0.94); 
+}
+
+.flip-enter, .flip-leave-to {
+  transform: scaleY(0) translateZ(0);
+  opacity: 0;
+}

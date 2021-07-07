@@ -1,0 +1,84 @@
+.button {
+  display: flex;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: none;
+  border-radius: 0;
+  padding: 12px 40px;
+  width: max-content;
+  height: max-content;
+  cursor: pointer;
+  text-decoration: none;
+  transition: .3s;
+}
+@media all and (max-width: 767px) {
+  .button {
+    padding: 9px 40px;
+    display: flex;
+    justify-content: center;
+  }
+}
+/* темно-синяя кнопка */
+.button-primary {
+  background: #0a467e;
+  font: normal 600 16px/20px "SourceSansPro";
+  color: #fff;
+}
+
+.button-primary:hover {
+  background: #002f58;
+}
+
+/* .button-primary:focus {
+  outline: none;
+  box-shadow: 0 0 0 4px #cbd6ee;
+} */
+
+.button-primary:active {
+  background: #0a467e;
+}
+/* светло-синяя кнопка */
+.button-secondary {
+  background: #1690c3;
+  font: normal 600 16px/20px "SourceSansPro";
+  color: #fff;
+}
+
+.button-secondary:hover {
+  background: #026aa2;
+}
+
+/* .button-secondary:focus {
+  outline: none;
+  box-shadow: 0 0 0 4px #cbd6ee;
+} */
+
+.button-secondary:active {
+  background: #1690c3;
+}
+/* белая кнопка */
+.button-white {
+  border: 1px solid #dadada;
+  background: #fff;
+  font: normal 600 16px/20px "SourceSansPro";
+  color: #0a467e;
+}
+
+.button-white:hover {
+  background: #f2f9fc;
+}
+
+/* .button-white:focus {
+  outline: none;
+  box-shadow: 0 0 0 4px #cbd6ee;
+} */
+
+.button-white:active {
+  background: #fff;
+}
+
+.button .arrow-wrap {
+  margin-left: 10px;
+  flex-shrink: 0;
+}

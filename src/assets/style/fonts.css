@@ -1,0 +1,65 @@
+@font-face {
+  font-family: "SourceSansPro";
+  src: url("../fonts/Source_Sans_Pro/SourceSansPro-Regular.woff2")
+      format("woff2"),
+    url("../fonts/Source_Sans_Pro/SourceSansPro-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "SourceSansPro";
+  src: url("../fonts/Source_Sans_Pro/SourceSansPro-SemiBold.woff2")
+      format("woff2"),
+    url("../fonts/Source_Sans_Pro/SourceSansPro-SemiBold.ttf")
+      format("truetype");
+  font-weight: 600;
+  font-display: swap;
+}
+@font-face {
+  font-family: "SourceSansPro";
+  src: url("../fonts/Source_Sans_Pro/SourceSansPro-Bold.woff2") format("woff2"),
+    url("../fonts/Source_Sans_Pro/SourceSansPro-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-display: swap;
+}
+@font-face {
+  font-family: "SourceSansPro";
+  src: url("../fonts/Source_Sans_Pro/SourceSansPro-Black.woff2") format("woff2")
+    url("../fonts/Source_Sans_Pro/SourceSansPro-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-display: swap;
+}
+@font-face {
+  font-family: "SourceSansPro";
+  font-style: italic;
+  src: url("../fonts/Source_Sans_Pro/SourceSansPro-Italic.woff2")
+      format("woff2"),
+    url("../fonts/Source_Sans_Pro/SourceSansPro-Italic.ttf") format("truetype");
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto_Condensed/RobotoCondensed-Light.woff2") format("woff2"),
+    url("../fonts/Roboto_Condensed/RobotoCondensed-Light.ttf")
+      format("truetype");
+  font-weight: 300;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto_Condensed/RobotoCondensed-Regular.woff2")
+      format("woff2"),
+    url("../fonts/Roboto_Condensed/RobotoCondensed-Regular.ttf")
+      format("truetype");
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto_Condensed/RobotoCondensed-Bold.woff2") format("woff2"),
+    url("../fonts/Roboto_Condensed/RobotoCondensed-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-display: swap;
+}

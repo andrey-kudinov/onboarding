@@ -1,0 +1,30 @@
+.content {
+  display: grid;
+  grid-template-columns:
+    [full-start] minmax(39px, 1fr)
+    [main-start] minmax(0, 1170px)
+    [main-end] minmax(39px, 1fr)
+    [full-end];
+}
+@media all and (max-width: 767px) {
+  .content {
+    grid-template-columns:
+      [full-start] minmax(15px, 1fr)
+      [main-start] minmax(0, 1170px)
+      [main-end] minmax(15px, 1fr)
+      [full-end];
+  }
+}
+.main {
+  grid-column: main;
+}
+.full {
+  grid-column: full;
+}
+
+.full-out-content {
+  width: 100vw;
+  margin-left: -50vw;
+  position: relative;
+  left: 50%;
+}
